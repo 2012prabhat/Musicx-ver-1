@@ -23,7 +23,7 @@
     <!------------------------- Music Player ----------------------------->
     <div class="selectSong h-[30vh] w-full p-16 border-red-900 border-2 absolute bottom-0 bg-white text-center text-xl md:text-3xl font-bold mt-8">Please Select a Song</div>
 
-    <div class="musicPlayer h-[30vh] w-full p-4 border-red-900 hidden">
+    <div class="musicPlayer h-[30vh] w-full p-2 border-red-900 hidden">
 
                         <!-- Progress Bar -->
         <div class="flex justify-center p-4 rounded-2xl">
@@ -32,21 +32,21 @@
         <div class="flex">
 
             <!-- Current Music Details -->
-            <div class="details w-[30%] h-[100px] bg-full bg-cover md:p-2 md:flex ">
+            <div class="details w-[30%] h-[100px] bg-full  md:p-2 md:flex ">
                 <img class="pic md:w-[120px] md:h-[110px] mx-2 h-[80px]" src="" alt="">
-                <h2 class="songName text-xs md:text-sm md:p-2  md:mt-4">Song Name</h2>
+                <h2 class="songName text-lg ml-1 md:p-2  md:mt-4">Song Name</h2>
             </div>
 
 <!------------------- PlayBack Buttons --------------->
             <div class="flex justify-center p-3 w-[40%]">
-                <button class="material-icons prevBtn text-3xl md:text-5xl p-2  mx-2 my-6 rounded-3xl bg-black text-white hover:bg-green-500 hover:text-black hover:scale-110  ease-in-out duration-300">skip_previous</button>
-                <button class="material-icons playBtn text-3xl md:text-5xl p-2  mx-2 my-6 rounded-3xl bg-black text-white  hover:bg-green-500 hover:text-black hover:scale-110  ease-in-out duration-300">play_arrow</button>
-                <button class="material-icons nextBtn text-3xl md:text-5xl p-2  mx-2 my-6 rounded-3xl bg-black text-white hover:bg-green-500 hover:text-black hover:scale-110  ease-in-out duration-300">skip_next</button>
+                <button class="material-icons prevBtn text-3xl md:text-5xl p-2  mx-1 my-6 rounded-3xl bg-black text-white hover:bg-green-500 hover:text-black hover:scale-110  ease-in-out duration-300">skip_previous</button>
+                <button class="material-icons playBtn text-3xl md:text-5xl p-2  mx-1 my-6 rounded-3xl bg-black text-white  hover:bg-green-500 hover:text-black hover:scale-110  ease-in-out duration-300">play_arrow</button>
+                <button class="material-icons nextBtn text-3xl md:text-5xl p-2  mx-1 my-6 rounded-3xl bg-black text-white hover:bg-green-500 hover:text-black hover:scale-110  ease-in-out duration-300">skip_next</button>
             </div>
 
 
                 <!-- Time Durations -->
-            <div class="flex justify-center  w-[20%] p-4 mt-4 ml-2">
+            <div class="flex justify-self-end  w-[110px] h-[25px] space-x-2 md:ml-64 ">
                 <h2 class="currDuration">00:00</h2>
                 <h2>/</h2>
                 <h2 class="songDuration">00:00</h2>
