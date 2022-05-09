@@ -25,5 +25,11 @@ let songs = [
       songName:"Heeriye- Pyar Ka Punchnama-2",
       coverPath:"https://c.saavncdn.com/024/Pyaar-Ka-Punchnama-2-Hindi-2018-20180517-500x500.jpg",
       language:"Hindi"
-  }
+  },
+  {
+      filePath:"https://sdlhivkcdnems03.cdnsrv.jio.com/jiosaavn.cdn.jio.com/799/c7fcdb5d33731d6d044462b7e29970c9_160.mp4",
+      songName:"Maiya Mainu - Jersey",
+      coverPath:"https://c.saavncdn.com/799/Jersey-Hindi-2021-20220412145401-500x500.jpg",
+      language:"Hindi"
+  },
 ];

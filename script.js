@@ -76,7 +76,7 @@ if(!audioFlag){
 songs.map((m,i)=>{
     let songCover = document.createElement('div');
     songCover.innerHTML = `<div class="relative border-2 border-black-900 bg-cover rounded md:w-[180px] w-[150px] hover:scale-110  ease-in-out duration-300 bg-full h-[25vh] m-2 bg-[url(${m.coverPath})] text-white flex items-end justify-center">
-    <Button class="material-icons rounded-3xl bg-black text-white" >play_arrow</Button>
+    <Button class="material-icons absolute top-7 opacity-1 text-3xl p-2  mx-1 my-6 rounded-xl bg-black text-white hover:bg-green-500 hover:text-black hover:scale-110  ease-in-out duration-300" >play_arrow</Button>
     <div class="text-sm text-center bg-black w-full py-1">${m.songName.slice(0,21)}</div></div>`
     songsCont.append(songCover);
     songCover.addEventListener("click",()=>handleSelectedSong(i));
@@ -90,6 +90,5 @@ const handlePrev = (m,i)=>{
     audioFlag = true;
     playBtn.innerHTML = "pause";
 }
-
 
 
