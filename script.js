@@ -38,6 +38,7 @@ const handleSelectedSong = (i)=>{
         if(min<=9) min ="0"+min
         if(cmin<=9) cmin = "0"+cmin;
         if(csec<=9) csec = "0"+csec;
+        if(sec<=9) sec = "0"+sec;
         currDuration.innerHTML = cmin+":"+csec;
         songDuration.innerHTML = min+":"+sec;
     })
